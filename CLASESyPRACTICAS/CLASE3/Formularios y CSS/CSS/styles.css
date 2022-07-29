@@ -1,0 +1,34 @@
+/* Estilos de encabezado */
+h1{
+    color: blue;
+}
+
+h2{
+    color: red;
+}
+
+/* Estilos para noticias */
+img{
+    opacity: 0.3; /* pone semi transparente la imagen */
+}
+
+section{
+    background-color: beige;
+}
+
+/* Estilos padre e hijo */
+.padre{
+    font-size: 20px;
+}
+
+.hijo{
+    font-size: 2em;
+}
+
+.parrafo{
+    font-family: 'Courier New', Courier, monospace;
+}/* si no existe Courier new, muestra la fuente courier, sino la mospace */
+
+/* Estilos para el footer */
+
+
