@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 1 - Formulario</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Datos de usuario</legend>
+            <label for="nombre">Nombre </label>
+            <input type="text" name="nombre" id="nombre">
+            <br><br>
+            Eres socio?
+            <br><br>
+            <input type="radio" name="socio" id="si">Si, soy socio
+            <input type="radio" name="socio" id="no">No soy socio
+            <br><br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+            <br><br>
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" id="password">
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos de reserva</legend>
+            <label for="edad">Edad</label>
+            <select name="edad" id="edad">
+                <option selected>Menor de 18</option>
+                <option>Adulto</option>
+                <option>Mayor</option>
+                <option>Anciano</optionvalue=>
+            </select>
+            <br><br>
+            <label for="date">Selecciona la fecha y hora de reserva:</label>
+            <br><br>
+            <input type="date" name="date" id="date">
+            <input type="time" name="time" id="time">
+            <br><br>
+            <textarea name="textarea" id="textarea" cols="20" rows="5">Comentarios
+            </textarea>
+        </fieldset>
+        <br>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label for="checkbox"> Acepto las condiciones</label>
+        <br><br>
+        <input type="button" value="ENVIAR">
+    </form>
+</body>
+</html>
