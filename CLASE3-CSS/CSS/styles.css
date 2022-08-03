@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
+
 /* Estilos de encabezado */
 h1{
     color: rgba(255,0,0,0.4);
@@ -26,8 +28,9 @@ section{
 }
 
 .parrafo{ /* si no existe Courier new, muestra la fuente courier, sino la mospace */
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
     text-align: justify;
+    text-transform: uppercase;
 }
 
 /* Estilos para el footer */
