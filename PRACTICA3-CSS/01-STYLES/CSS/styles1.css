@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Quicksand:wght@600&display=swap');
+
+section{
+    color: blue;
+    text-align: right;
+    text-transform: uppercase;
+    background-color: #A9A9A9;
+}
+
+h2{
+    color: #B8860B;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: 'PT Serif', serif;
+}
+
+ul{
+    font-family: 'Quicksand', sans-serif;
+}
