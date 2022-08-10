@@ -1,0 +1,17 @@
+h1 {
+    display: block;
+    border-bottom: 2px solid #00f;
+}
+
+h2 {
+    border: 2px solid #AAA;
+}
+
+.datos ul {
+    border-top: 4px dotted #F00;
+    border-bottom: 4px dotted #F00;
+}
+
+.contenido ul {
+    border: 2px dashed #0F0;
+}
