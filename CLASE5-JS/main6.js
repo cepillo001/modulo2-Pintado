@@ -13,7 +13,7 @@ let persona = { // Objeto
 }
 
 console.log(persona.nombre);
-console.log(JSON.stringify(persona)); // obj a Json
+console.log(JSON.stringify(persona)); // objeto a Json
 
 let persona2 = {
     nombre: "Pablo",
