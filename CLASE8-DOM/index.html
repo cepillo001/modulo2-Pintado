@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase08 - JS Clase 3</title>
+
+</head>
+<body>
+    <h1>Elementos del DOM</h1>   
+    <p id="para1">Este es mi primer párrafo.</p>
+    <p id="para2">Este es mi segundo párrafo.</p>
+
+    <h1>Programas de televisión</h1>
+    <ul class="list">
+        <li>Golden Girls</li>
+        <li>Archer</li>
+        <li>Rick and Morty</li>
+        <li>The Crown</li>
+    </ul>
+
+    <hr>
+
+    <p id="parrafo-a-eliminar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quis, pariatur consectetur
+        ad vitae odio explicabo in facilis. Ipsa consectetur qui provident blanditiis voluptate voluptatem magni maiores
+        earum doloribus facere.</p>
+
+
+    <h1>Formularios</h1>
+    <!-- Asignar valores a inputs -->
+    <input id="nombre" type="text">
+    <input id="edad" type="number">
+
+
+    <!-- Obtener valores de inputs -->    
+    <h4>
+        Formulario de contacto:
+    </h4>
+
+    <label for="name">Name: </label>
+    <input type="text" id="name">
+
+    <label for="surname">Surname: </label>
+    <input type="text" id="surname">
+    <button type="button" onclick="getValueInput()">Enviar</button>
+
+    <p id="valores"></p>
+    
+
+    <!-- script al final, asi renderiza 1ro el html y despues ejecuta la accion -->
+    <script src="main.js"></script>
+</body>
+</html>
